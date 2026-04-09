@@ -1,4 +1,6 @@
 {
   "item.cropic.tomato": "Tomato",
-  "item.cropic.tomato_seeds": "Tomato Seeds"
+  "item.cropic.tomato_seeds": "Tomato Seeds",
+  "block.cropic.soil_block": "Soil Block",
+  "block.cropic.bush_block": "Bush"
 }

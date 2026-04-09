@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "cropic:block/soil_block"
+    "all": "cropic:block/bush_block"
   }
 }
