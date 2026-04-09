@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import tompl.cropic.block.ModBlocks;
 import tompl.cropic.item.ModItems;
 
 public class Cropic implements ModInitializer {
@@ -13,5 +14,6 @@ public class Cropic implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cropic:block/soil_block"
+    }
+  }
+}

@@ -12,6 +12,8 @@ import tompl.cropic.Cropic;
 public class ModItems
 {
     public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings()));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item)
     {
@@ -24,6 +26,7 @@ public class ModItems
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(TOMATO);
+            entries.add(TOMATO_SEEDS);
         });
     }
 
