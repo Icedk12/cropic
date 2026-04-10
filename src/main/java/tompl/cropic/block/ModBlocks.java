@@ -17,9 +17,11 @@ public class ModBlocks
 {
     public static final Block SOIL_BLOCK = registerBlock("soil_block",
             new Block(AbstractBlock.Settings.create().
-                    strength(1f).
+                    strength(0.3f).
+                    requiresTool().
                     sounds(BlockSoundGroup.MUD)
             ));
+
     private static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);
