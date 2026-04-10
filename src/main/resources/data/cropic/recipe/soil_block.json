@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "natural",
+  "key": {
+    "#": {
+      "item": "minecraft:dirt"
+    },
+    "X": {
+      "item": "minecraft:mud"
+    }
+  },
+  "pattern": [
+      "X# ",
+      "#X ",
+      "   "
+  ],
+  "result": {
+    "count": 4,
+    "id": "cropic:soil_block"
+  }
+}
