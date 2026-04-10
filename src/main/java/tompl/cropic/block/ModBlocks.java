@@ -20,13 +20,6 @@ public class ModBlocks
                     strength(1f).
                     sounds(BlockSoundGroup.MUD)
             ));
-    public static final Block BUSH_BLOCK = registerBlock("bush_block",
-            new Block(AbstractBlock.Settings.create().
-                    dropsNothing().
-                    sounds(BlockSoundGroup.AZALEA_LEAVES).
-                    breakInstantly()
-            ));
-
     private static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);
